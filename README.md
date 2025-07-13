@@ -1,16 +1,93 @@
-# AI for Medical Diagnosis on Coursera
+# AI for Medical Diagnosis
 
-Master Deep Learning, and Break into AI
+**Coursera Specialization Project** · Python · Machine Learning · Medical Imaging
 
-Instructor: Andrew Ng
+---
 
-# Introduction
-This repo contains all my work for this specialization. All the code base, quiz questions, screenshot, and images, are taken from, unless specified, AI for Medical Diagnosis on Coursera. I am a Biomedical Undergraduate and a long time self-taught learner. There are many forums where there are detailed descriptions of the various programs. I understand the hardwork put in to understand the new concepts and debugging your program. Here, I have released the solutions of the assignment **only for your reference purpose**. It can help you save some time in completing the assignment or it can also assist you for the same. Use these only as an aid to solving the programming assignment and the quiz. This course is one of the easiest deep learning course I have ever taken. It explains most of the concepts necessary for AI applications in medicine. It is a treasure given by deeplearning.ai team.
+## 📖 Course overview
 
-# Programming Assignments and Quiz
+This repository contains my solutions for the **AI for Medical Diagnosis** course on Coursera taught by Dr. Andrew Ng & team.  
+Across **three weeks** you’ll find Jupyter notebooks and supporting files exploring:
 
-[- Week 1 ](https://github.com/mk-gurucharan/AI-for-Medical-Diagnosis/tree/master/Week%201)
+- **Week 1:** Disease detection with computer vision (e.g., X-ray classification)  
+- **Week 2:** Evaluation of diagnostic models (ROC, sensitivity, specificity)  
+- **Week 3:** Advanced models: U-Net segmentation, custom loss functions  
 
-[- Week 2 ](https://github.com/mk-gurucharan/AI-for-Medical-Diagnosis/tree/master/Week%202)
+---
 
-[- Week 3 ](https://github.com/mk-gurucharan/AI-for-Medical-Diagnosis/tree/master/Week%203)
+## 🚀 Getting started
+
+1. **Clone** this repo  
+   ```bash
+   git clone https://github.com/mehdimkia/ai-medical-diagnosis-machineLearning.git
+   cd ai-medical-diagnosis-machineLearning
+   ```
+2. **Create & activate** a virtual environment  
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate     # Mac/Linux
+   venv\Scripts\activate        # Windows
+   ```
+3. **Install** dependencies  
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Launch** Jupyter Lab  
+   ```bash
+   jupyter lab
+   ```
+5. Open any notebook under `Week 1/`, `Week 2/` or `Week 3/` and run cells top-to-bottom.
+
+---
+
+## 🗂 Project structure
+
+```text
+ai-medical-diagnosis-machineLearning/
+├── Week 1/                   # Disease detection with CNNs
+│   ├── disease_detection.ipynb
+│   └── helper_functions.py
+├── Week 2/                   # Evaluation metrics & ROC curves
+│   ├── model_evaluation.ipynb
+│   └── metrics.py
+├── Week 3/                   # Segmentation with U-Net, custom losses
+│   ├── unet_segmentation.ipynb
+│   └── losses.py
+├── requirements.txt          # pip dependencies
+└── README.md                 # this file
+```
+
+---
+
+## 📦 Dependencies
+
+- Python 3.8+  
+- Jupyter Lab or Notebook  
+- TensorFlow 2.x / Keras  
+- scikit-learn  
+- NumPy, pandas, matplotlib  
+
+Install all dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📝 License
+
+This work is released under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♀️ About me
+
+**Mehdi Mirkia** – MPH, MSc Epidemiology & Biostatistics | Aspiring PhD in Quantitative Methods  
+- 🔭 Currently building reproducible pipelines in R & Python  
+- 📫 mehdimx@gmail.com  
+- 🔗 [github.com/mehdimkia](https://github.com/mehdimkia)
+
+---
+
+> “Show me the code, not the slides.”  
